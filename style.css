@@ -4,15 +4,15 @@ body {
     padding: 0;
 }
 
-header, footer {
-    background-color: #333;
+header {
+    background-color: #495464;
     color: white;
     text-align: center;
     padding: 1em;
 }
 
 nav {
-    background: #ddd;
+    background: #BBBFCA;
     padding: 0.5em;
 }
 
@@ -21,37 +21,34 @@ nav ul li {
     margin-right: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-}
-
-.container {
+div {
     display: flex;
     flex-wrap: wrap;
-    min-height: calc(80vh - 112px); 
+    min-height: calc(80vh - 120px); 
 }
 
-aside, main {
-    padding: 1em;
-}
-
-.sidebar-left, .sidebar-right {
+aside {
     flex: 1;
-    background-color: #f4f4f4;
-    text-align: center;
+    display: grid;
+    background-color: #E8E8E8;
+    text-align: center;    
+    align-items: center;
+    padding: 1em;
 }
 
 main {
     flex: 3;
-    background-color: #fff;
+    display: grid;
+    background-color: #F4F4F2;
     text-align: center;
+    align-items: center;
+    padding: 1em;
 }
 
 footer {
-    clear: both;
-    background-color: #333;
+    background-color: #495464;
     color: white;
+    clear: both;
     text-align: center;
     padding: 1em;
 }
